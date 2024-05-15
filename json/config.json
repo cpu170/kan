@@ -67,7 +67,7 @@
       "api": "csp_YiSo",
       "searchable": 1,
       "changeable": 1,
-      "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd",
+      "ext": "../token.txt+4k|auto|fhd",
       "timeout": 30
     },
     {
@@ -87,6 +87,89 @@
       "searchable": 1,
       "changeable": 1
     },
+     {
+            "key": "阿里合集",
+            "name": "阿里｜合集",
+            "type": 3,
+            "api": "csp_AliShare",
+            "searchable": 1,
+            "changeable": 0,
+            "filterable": 0,
+            "ext": {
+                "token": "../token.txt",
+                "share": ""
+            },
+            "style": {
+                "type": "list"
+            },
+            "jar": ""
+        },
+         {
+            "key": "云云弹幕",
+            "name": "弹幕｜云云",
+            "type": 3,
+            "api": "csp_Upys",
+            "searchable": 1,
+            "filterable": 0,
+            "changeable": 1,
+            "ext": {
+                "token": "../token.txt",
+                "danmu": true
+            },
+            "jar": ""
+        },
+         {
+            "key": "云搜弹幕",
+            "name": "弹幕｜云搜",
+            "type": 3,
+            "api": "csp_UpYun",
+            "searchable": 1,
+            "filterable": 0,
+            "changeable": 1,
+            "ext": {
+                "token": "../token.txt",
+                "danmu": true
+            },
+            "jar": ""
+        },
+         {
+            "key": "盘搜弹幕",
+            "name": "弹幕｜盘搜",
+            "type": 3,
+            "api": "csp_PanSou",
+            "searchable": 1,
+            "filterable": 0,
+            "changeable": 1,
+            "ext": {
+                "token": "../token.txt",
+                "danmu": true
+            },
+            "jar": ""
+        },
+        {
+            "key": "云盘弹幕",
+            "name": "弹幕｜云盘",
+            "type": 3,
+            "api": "csp_Yunpan4k",
+            "searchable": 1,
+            "filterable": 0,
+            "changeable": 1,
+            "ext": {
+                "token": "../token.txt",
+                "danmu": true
+            },
+            "jar": ""
+        },
+        {
+            "key": "AliPS",
+            "name": "云盘｜盘搜",
+            "type": 3,
+            "api": "csp_AliPS",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "ext": "../token.txt"
+        },
     {
       "key": "yppan",
       "name": "云盘盘",
